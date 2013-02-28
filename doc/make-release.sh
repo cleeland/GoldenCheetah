@@ -1,4 +1,5 @@
 #!/bin/sh
+@TODO: Is this script deprecated now?
 # $Id: mkdmg.sh,v 1.2 2006/09/06 23:23:03 srhea Exp $
 export PATH=/usr/local/Trolltech/Qt-4.1.1-static/bin:$PATH
 VERS=`date +'%Y-%m-%d'`

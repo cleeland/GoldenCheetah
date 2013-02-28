@@ -15,7 +15,7 @@ CONTENTS
 
 1. BASIC INSTALLATION WITH MANDATORY DEPENDENCIES
    - Xcode
-   - Qt
+   - Qt (>= 4.7.4)
 
 2. ADDING OPTIONAL DEPENDENCIES
    - FTDI D2XX
@@ -100,7 +100,7 @@ time of writing the latest development release is release_3.0.0dev, if you
 want to build version 3 then you should perform the next command, otherwise 
 skip to 1.5.
 
-$ checkout release_3.0.0dev
+$ git checkout release_3.0.0dev   <--- THIS TAG DOES NOT EXIST!!!
 $ ls
 
 You will now see an updated version of this walkthrough, please jump to using
@@ -238,6 +238,10 @@ Since these optional dependencies are more complex and require more advanced
 technical skills we do not provide a walkthrough for building them all but
 instead provide the configure settings and any special considerations that
 should be taken into account.
+
+@TODO: Provide one-sentence explanation of features one gains from inclusion
+       of each optional dependency.
+@TODO: Would be nice to provide URL or VCS rendezvous point.
 
 2.1 SRMIO - For working with PC 5/6/7
 -------------------------------------
